@@ -13,7 +13,8 @@ Category (main)        e.g. Carpentry
      └─ Items          e.g. Bottom cabinet – $135/ft     ← Master Library
 ```
 
-- **One list** of categories is used everywhere: the Master Library, the quote builder, the PDF and Contractors.
+- **One list, one place:** categories are created, renamed and given their notes **only** on **Quotations → Categories**.
+- **Everywhere else picks from that list:** the Master Library, the quote builder, the PDF and Contractors. None of them can create a category.
 - **Managers** set up categories, items and standard notes.
 - **Designers** just pick from them when building a quote.
 
@@ -45,6 +46,14 @@ Category (main)        e.g. Carpentry
 - Click **Switch off**. The category disappears from pickers, but nothing is deleted.
 - Click **Switch on** to bring it back.
 
+### Write the category's notes ("Notes & Specifications")
+- **What they are:** the fixed text printed under that category on every quote PDF, e.g. *"All carpentry in E1 grade plywood…"*.
+- **To edit:**
+  1. Click **▶** on the category.
+  2. Type in the **Notes & Specifications** box.
+  3. Click **Save notes**.
+- It shows **who changed the notes last** and when.
+
 > Each row shows how many items and contractors use it, and who changed it last.
 
 ---
@@ -70,13 +79,8 @@ Category (main)        e.g. Carpentry
 
 **Go to:** Quotations → **Terms**
 
-### Category notes ("Notes & Specifications")
-- **What they are:** the fixed text printed under each category on every quote PDF, e.g. *"All carpentry in E1 grade plywood…"*.
-- **To edit:**
-  1. Find the category in the category notes section and click edit.
-  2. Change the text and save.
-- **New category:** click **+ Add New Category**.
-- The page shows **who changed it last** and when.
+### Category notes
+These are now on **Quotations → Categories** (see section 2). The Terms page only links there.
 
 ### Complimentary Inclusions & Remarks (the free gifts)
 1. Find the box **Complimentary Inclusions & Remarks (standard)**.
@@ -97,7 +101,7 @@ Category (main)        e.g. Carpentry
 ### The category boxes
 - Category boxes appear in the order the manager set.
 - Click a box header to **collapse** it when the quote gets long.
-- **+ Add Category** adds a box for a category this quote needs.
+- **+ Add Category** lets you pick a category from the list that isn't on this quote yet. To create a brand-new category, ask a manager to add it on the Categories page.
 - **×** removes a box you don't need.
 - Drag a box, or use **▲ ▼**, to move it on this quote only.
 - **Reset Order** goes back to the standard order.
@@ -148,8 +152,8 @@ COMPLIMENTARY INCLUSIONS & REMARKS
 - Contractors are grouped under the same main categories, e.g. **Carpentry (13)**.
 - **Add a contractor:**
   1. Click **+ Add Approved Contractor**.
-  2. Pick the category as their trade.
-  3. If the trade doesn't exist yet, choose **+ Add Custom Category / Trade…** and type it. It's added to the Categories list automatically.
+  2. Pick their **Category** (their trade) from the list.
+  3. If it's not in the list, add it on **Quotations → Categories** first.
 - **Cost history:** each contractor's cost records show who recorded each price.
 
 ---
@@ -158,9 +162,9 @@ COMPLIMENTARY INCLUSIONS & REMARKS
 
 | Question | Answer |
 |---|---|
-| Where do I add a category? | Quotations → **Categories** |
+| Where do I add a category? | Quotations → **Categories** (the only place) |
 | Where do I put an item under a sub-category? | Quotations → **Master** → edit item → second dropdown |
-| Where do I change the text printed under a category? | Quotations → **Terms** → category notes |
+| Where do I change the text printed under a category? | Quotations → **Categories** → ▶ → Notes & Specifications |
 | Where do I set the usual free gifts? | Quotations → **Terms** → Complimentary Inclusions & Remarks |
 | Can a designer change free gifts for one client? | Yes, in that quote's builder |
 | Can designers edit categories? | No. Managers only |
